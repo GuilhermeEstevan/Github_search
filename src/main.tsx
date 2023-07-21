@@ -5,8 +5,8 @@ import { GithubProvider } from './Context/Context.tsx'
 import { Auth0Provider } from '@auth0/auth0-react'
 
 
-const auth0Domain = import.meta.env.VITE_AUTH0_DOMAIN
-const auth0ClientId = import.meta.env.VITE_AUTH0_CLIENT_ID
+const auth0Domain = 'dev-jtexi7myq7etjnac.us.auth0.com'
+const auth0ClientId = 'bKM7wvZ6UQ7obf0bNaLoHJcRu7SdRECE'
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
